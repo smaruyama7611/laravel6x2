@@ -16,7 +16,7 @@ docker
               |－　Dockerfile            　
               ∟　　local.ini            
 ```                               
-  
+  #### Laravelをインストール
   最上位のdockerディレクトリ内で以下のコマンドを実行します。
   ```
   git clone https://github.com/laravel/laravel.git laravel
