@@ -65,10 +65,10 @@ services:
   #       - ./docker/phpmyadmin/sessions:/sessions
   #       - ./docker/db/my.cnf:/etc/mysql/conf.d/my.cnf
 
-  #networks:
-  # app-network:
-  #  driver: bridge
+  networks:
+   app-network:
+    driver: bridge
 
-#volumes:
-#  mysql-volume:
-#    driver: local
+volumes:
+  mysql-volume:
+    driver: local
