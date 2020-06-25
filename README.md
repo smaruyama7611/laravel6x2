@@ -1,5 +1,5 @@
 ディレクトリ構成　　　　
-        docker  
+        　　　docker  
                 |－　docker-compose.yml  
                 |－　laravel  
                 |－　mysql  　
