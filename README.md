@@ -25,5 +25,5 @@ Laravelのインストール
     cd laravel
     docker run --rm --interactive --tty --volume $PWD:/app composer install
 
-    このコマンドは、Composerイメージからコンテナを一時的に作成し、Laravelに必要なパッケージをインストールします。
+  このコマンドは、Composerイメージからコンテナを一時的に作成し、Laravelに必要なパッケージをインストールします。
   Laravelディレクトリをコンテナ内にマウントすることで、Composerコンテナがcomposer.jsonファイルを読み込んで利用できるようになっています。コンテナは実行後に消滅しますが、ディレクトリをマウン トしているためホストOS上にインストールしたパッケージが残ります。公式のComposerイメージで紹介されている使用法です。
