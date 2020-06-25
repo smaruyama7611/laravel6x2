@@ -1,5 +1,6 @@
         
-        ディレクトリ構成                　　　　
+#ディレクトリ構成
+
         　　　     docker            
                         |－　docker-compose.yml             
                         |－　laravel                
