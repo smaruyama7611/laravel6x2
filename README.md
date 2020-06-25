@@ -11,8 +11,8 @@
                         |　　　|－　Dockerfile                　
                         |　　　∟　　default.conf               
                         ∟　　php           
-                                |－　Dockerfile            　
-                                ∟　　local.ini            
+                              |－　Dockerfile            　
+                              ∟　　local.ini            
                                 
                                 
                                 
