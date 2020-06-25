@@ -17,9 +17,9 @@
                                
   
   最上位のdockerディレクトリ内で以下のコマンドを実行します。
-  
-           git clone https://github.com/laravel/laravel.git laravel
-                                
+  ```
+  git clone https://github.com/laravel/laravel.git laravel
+  ```                              
 
   参考
   https://qiita.com/yoshiplur/items/fa875e111f908cd8786c
