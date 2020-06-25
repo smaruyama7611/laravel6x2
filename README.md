@@ -1,18 +1,18 @@
 ディレクトリ構成
         docker
-        |－　docker-compose.yml
-        |－　laravel
-        |－　mysql　
-        |　　　|－　Dockerfile
-        |　　　|－　my.cnf
-        |　　　∟　sql
-        |　　　　　∟　init.sql
-        |－　nginx
-        |　　　|－　Dockerfile　
-        |　　　∟　　default.conf
-        ∟　　php
-           |－　Dockerfile　
-           ∟　　local.ini
+                |－　docker-compose.yml
+                |－　laravel
+                |－　mysql　
+                |　　　|－　Dockerfile
+                |　　　|－　my.cnf
+                |　　　∟　sql
+                |　　　　　∟　init.sql
+                |－　nginx
+                |　　　|－　Dockerfile　
+                |　　　∟　　default.conf
+                ∟　　php
+                        |－　Dockerfile　
+                        ∟　　local.ini
 
 Laravelのインストール
     最上位のdockerディレクトリ内で以下のコマンドを実行します。
