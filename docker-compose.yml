@@ -49,10 +49,26 @@ services:
     networks:
       - app-network
 
-networks:
-  app-network:
-    driver: bridge
 
-volumes:
-  mysql-volume:
-    driver: local
+ # phpmyadmin:
+  #   image: phpmyadmin/phpmyadmin
+  #   environment:
+  #     - PMA_ARBITRARY=1
+  #     - PMA_HOST=mysql
+  #     - PMA_USER=user
+  #     - PMA_PASSWORD=pass
+  #   links:
+  #     - mysql
+  #   ports:
+  #       - 8080:80
+  #   volumes:
+  #       - ./docker/phpmyadmin/sessions:/sessions
+  #       - ./docker/db/my.cnf:/etc/mysql/conf.d/my.cnf
+
+  #networks:
+  # app-network:
+  #  driver: bridge
+
+#volumes:
+#  mysql-volume:
+#    driver: local
