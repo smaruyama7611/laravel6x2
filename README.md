@@ -1,4 +1,4 @@
-        ```
+        
         ディレクトリ構成                　　　　
         　　　     docker            
                         |－　docker-compose.yml             
@@ -14,7 +14,7 @@
                         ∟　　php           
                               |－　Dockerfile            　
                               ∟　　local.ini            
-        ```                        
+                               
   
   最上位のdockerディレクトリ内で以下のコマンドを実行します。
   
