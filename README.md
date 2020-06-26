@@ -35,7 +35,7 @@ docker
   centosの場合
   phpのstorageおよび.envファイルの権限を変更する。
   
-  ####　コンテナの起動とMySQLの接続確認
+  ####  コンテナの起動とMySQLの接続確認
   それぞれのファイルを追加後、Laravelの設定ファイルを「.env」として作成します。
   その後、docker-compose.ymlファイルのあるdockerディレクトリに移動し、docker-composeでコンテナを起動します。
  ```
