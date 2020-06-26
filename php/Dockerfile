@@ -40,7 +40,7 @@ RUN groupadd -g 1000 php && \
     useradd -u 1000 -ms /bin/bash -g php laravel
 
 # Change current user to laravel
-USER laravel
+#USER laravel
 
 # Expose port 9000 and start php-fpm server
 EXPOSE 9000
