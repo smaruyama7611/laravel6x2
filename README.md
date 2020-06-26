@@ -32,6 +32,19 @@ docker
   Laravelディレクトリをコンテナ内にマウントすることで、Composerコンテナがcomposer.jsonファイルを読み込んで利用できるようになっています。
   コンテナは実行後に消滅しますが、ディレクトリをマウン トしているためホストOS上にインストールしたパッケージが残ります。公式のComposerイメージで紹介されている使用法です。
   
+  centosの場合
+  phpのstorageおよび.envファイルの権限を変更する。
+  
+  ####　コンテナの起動とMySQLの接続確認
+  それぞれのファイルを追加後、Laravelの設定ファイルを「.env」として作成します。
+  その後、docker-compose.ymlファイルのあるdockerディレクトリに移動し、docker-composeでコンテナを起動します。
+ ```
+ cd laravel
+ cp .env.example .env
+ cd ..
+ docker-compose up -d
+ ```
+ docker-compose up -dのコマンドを実行すると、各コンテナのイメージも作成されます。
 
   引用
   https://qiita.com/yoshiplur/items/fa875e111f908cd8786c
